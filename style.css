@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+.letter{
+    padding: 0;
+    margin: 0;
+}
+
 :root {
     --color-bg: linear-gradient(to top, #00d4ff, #000); 
     --line-color: linear-gradient(to left top, #82ff86 20%, #144425, #104e1c);
@@ -12,7 +17,7 @@
     --petal-color: radial-gradient(circle, #ff5e00, #ffbb00);
 }
 
-body{
+.sunflower{
     background-image: var(--color-bg);
     min-height: 100vh;
     display: flex;
