@@ -5,8 +5,13 @@
 }
 
 .letter{
-    padding: 0;
-    margin: 0;
+    background-image: var(--color-bg);
+    min-height: 100vh;
+    display: flex;
+    align-items:flex-start;
+    justify-content:left;
+    overflow: hidden;;
+    color: white;
 }
 
 :root {
@@ -21,14 +26,14 @@
     background-image: var(--color-bg);
     min-height: 100vh;
     display: flex;
-    align-items: flex-end;
-    justify-content: center;
+    align-items: flex-start;
+    justify-content:right;
     overflow: hidden;
 }
 
 .flower_wrapper{
     position: absolute;
-    left: 50%;
+    left: 70%;
     bottom: 2vmin;
     animation: moving-flower-1 4s linear infinite;
 }
@@ -144,10 +149,10 @@
     animation: light-ans 4s linear infinite backwards;
 }
 
-    :nth-child(odd){
+/*     :nth-child(odd){
         background-color: #23f0ff;
     }
-
+ */
     .flower_light-1{
         left: -2vmin;
         animation-delay: 1s;
@@ -198,9 +203,9 @@
     filter: blur(0.2vmin);
     animation: light-ans-background 7s linear infinite backwards;
 }
-    :nth-child(odd){
+    /* :nth-child(odd){
         background-color: #23f0ff;
-    }
+    } */
 
     .light-1{
         left: 10vmin;
